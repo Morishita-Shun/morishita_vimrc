@@ -24,6 +24,9 @@ NeoBundle 'bronson/vim-trailing-whitespace'
 " カッコ自動入力
 NeoBundle 'kana/vim-smartinput'
 
+" ファイルツリー
+NeoBundle 'scrooloose/nerdtree'
+
 " Python
 NeoBundle 'davidhalter/jedi-vim'
 NeoBundle 'scrooloose/syntastic'
@@ -151,10 +154,8 @@ inoremap <Down> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
 
-
 " シンタックスハイライト
 syntax on
-
 
 " クリップボード連携
 set clipboard=unnamed
@@ -162,3 +163,5 @@ set clipboard=unnamed
 " バックスペース有効
 set backspace=indent,eol,start
 
+" Start NERDTree
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
