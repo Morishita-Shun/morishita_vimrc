@@ -223,4 +223,4 @@ cmap w!! w !sudo tee > /dev/null %
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 
 " テンプレート
-227 autocmd BufNewFile *.py 0r $HOME/.vim/template/python.txt
+autocmd BufNewFile *.py 0r $HOME/.vim/template/python.txt
