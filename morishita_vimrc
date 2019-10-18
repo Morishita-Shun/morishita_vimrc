@@ -24,6 +24,10 @@ NeoBundle 'bronson/vim-trailing-whitespace'
 " カッコ自動入力
 NeoBundle 'kana/vim-smartinput'
 
+" ci_, ca_ アンダースコアのワード定義
+NeoBundle 'kana/vim-textobj-user'
+NeoBundle 'kana/vim-textobj-underscore'
+
 " ファイルツリー
 NeoBundle 'scrooloose/nerdtree'
 
